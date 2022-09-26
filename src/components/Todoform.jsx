@@ -11,7 +11,7 @@ export default function Todoform() {
 
   useEffect(() => {
     setTodolist(savedItems);
-  }, []);
+  }, [savedItems]);
 
   const randomNumber = (Math.random() * 100).toFixed(0);
   const onChangeInputform = (event) => {
