@@ -1,8 +1,5 @@
 import { useState } from "react";
-import TaskAltIcon from "@mui/icons-material/TaskAlt";
 import Button from "@mui/material/Button";
-import DeleteIcon from "@mui/icons-material/Delete";
-import Stack from "@mui/material/Stack";
 
 import {
   Accordion,
